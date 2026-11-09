@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze the module path",
+  "context": "The module path is the public import contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review go.mod and document the import path.",
+    "expected_outcome": "Consumers import one stable module path.",
+    "acceptance_criteria": [
+      "Module path is documented",
+      "go test passes"
+    ]
+  },
+  "attempts": []
+}

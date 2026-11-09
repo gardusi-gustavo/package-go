@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add a real HTTP example",
+  "context": "The example is minimal.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add routes, JSON responses, and a test.",
+    "expected_outcome": "The example demonstrates the library in a full app.",
+    "acceptance_criteria": [
+      "Example builds",
+      "Handler is tested"
+    ]
+  },
+  "attempts": []
+}
